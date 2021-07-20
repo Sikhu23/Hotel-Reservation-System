@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
-    <style>
-        body{
-            height: 100%;
-            width: 100%;
-            margin:0;
-            background-color: #e0e0e0;
-        }
-        .header{
-            background-color: rosybrown;
-        }
-        .footer{
-            background-color: rosybrown;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/list.css">
+    
+    
 </head>
 <body>
     <div>
         <header>
             <div class="header">
-                <a  href="index.html"><img style="height: 60px ;width:60px;" src="assests/images/logo.png" alt="logo"  ></a>                
-                <a href="login.html">Login</a>
+                <div>
+                   <a href="index.html"><img style="height: 60px ;width:60px; position: relative;top:9px; " src="assests/images/logo.png" alt="logo" ></a> 
+
+                </div>
+
+                <div>
+                    <a href="login.html" style="text-decoration: none; color:black;float: right; position: relative; top:-34px;right:10px">Login</a>
+
+                </div>
+                 
             </div>
         </header>
 
+
         <section>
-            <div class="content">
-                <ul>
-                    <li><a href="#list-view">List View</a> </li>
-                    <li><a href="#map-view">Map View</a> </li>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div  >
+                <div >
+                    
+                <ul  class="grid" style="list-style: none;">
+                    <br>
+                    <div class="item_grid">
+                        <li style="text-align: right; padding-right: 6%; "><a href="#list-view" style=" text-decoration: none;color: black;"><b>List View</b></a> </li>
+                    </div>
+                    <div class="item_grid2">
+                        <li style="text-align: left;"><a href="#map-view" style=" text-decoration: none;color: black;"><b>Map View</b></a> </li>
+                    </div>                      
                 </ul>
-                <div id="list-view">
-                    <div style="background-color: rgb(132,136,139); margin: 2%; width: 40%;">
-                        <a href="detail.html">
+
+                </div>
+
+
+
+                <div id="list-view" class ="grid1">
+                    <br>
+                    <div  class="item_grid3" >
+                        <a href="detail.html" style=" text-decoration: none;color: black">
                             <img style="height:200px; width:250px; " src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
                         <br>
                         
@@ -43,7 +62,7 @@
                             <p>New Delhi</p>
                         </a>
                     </div>
-                    <div style="background-color: rgb(132,136,139); margin: 2%; width: 40%;">
+                    <div class="item_grid4">
                         <img style="height:200px; width:250px;" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">                
                         <h3>The Lalit New Delhi</h3>
                         <p>4.5 Star</p>
@@ -52,18 +71,23 @@
                     
                     </div>
 
-                    <div style="background-color: rgb(132,136,139); margin: 2%; width: 40%;">
+                    <div class="item_grid3">
                         
                     <img style="height:200px; width:250px;" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">                
                     <h3>Taj Palace</h3>
                     <p>4.0 Star</p>
-                    <p>New Delhi</p>
-    
+                    <p>New Delhi</p>   
                     
-                    </div>                               
+                    </div>  
+                    <div></div>  
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
                 
                 </div>
-                <div id="map-view">
+                <div id="map-view" style="display:none;">
                     <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
                     <p>MAP VIEW</p>
                 </div>
@@ -73,15 +97,33 @@
 
         <footer>
             <div class="footer">
-                <a href="contact.html">Contact Us</a>
-                <br>
-                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" style="height: 20px ;width:22px;" ></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" style="height: 20px ;width:22px;" ></a>
-                <a href="https://twitter.com/" target="_blank"><img src="assests/images/twitter.png" style="height: 20px ;width:22px;" ></a>
-                <br>
-                <span>&copy; 2020 ROOM SEARCH PVT. LTD</span></p>                
+                <div style="position: relative; top:19px;left:10px">
+                    <a style="text-decoration: none; color: black;" href="contact.html">Contact Us</a>
+                </div>
+                <div style="position: relative; float:right; right:15px;top:3px">
+                    
+                
+                    <a href="https://www.facebook.com/" target="_blank"><img class="logo" src="assests/images/facebook.png" ></a>
+                
+                
+                    <a href="https://www.instagram.com/" target="_blank"><img class="logo" src="assests/images/instagram.png" ></a>
+                
+                
+                    <a href="https://twitter.com/" target="_blank"><img class="logo" src="assests/images/twitter.png" ></a>
+                            
+                
+
+
+                </div>
+
+
+                <div style="text-align: center; position: relative; top:10px;font-size:small">
+                    <p>&copy; 2020 ROOM SEARCH PVT. LTD></p>
+                </div>
+                
+                             
             </div>            
-        </footer> 
-       </div>    
+        </footer>
+   </div>    
 </body>
 </html>

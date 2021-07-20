@@ -1,0 +1,36 @@
+*{
+    font-family: 'Ubuntu',sans-serif;
+}
+body{
+    height:100%;
+    width: 100%;
+    margin:0;
+    background-color: #e0e0e0;
+}
+.header{
+    background-color: rosybrown;
+    position:fixed;
+    width: 100%;
+}
+.footer{
+    background-color: rosybrown;
+    bottom: 0%;
+    width: 100%;
+    position:fixed;
+}
+.logo{
+    height: 20px ;
+    width:22px;
+}
+.space{
+    height: 150px;
+}
+#search{
+    border: 1px solid transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 100%;
+
+}

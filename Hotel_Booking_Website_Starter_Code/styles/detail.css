@@ -1,0 +1,25 @@
+*{
+    font-family: 'Ubuntu',sans-serif;
+}
+body{
+    height:100%;
+    width: 100%;
+    margin:0;
+    background-color: #e0e0e0;
+}
+.header{
+    top:0%;
+    background-color: rosybrown;
+    position:fixed;
+    width: 100%;
+}
+.footer{
+    background-color: rosybrown;
+    bottom: 0%;
+    width: 100%;
+    position:fixed;
+}
+.logo{
+    height: 20px ;
+    width:22px;
+}
