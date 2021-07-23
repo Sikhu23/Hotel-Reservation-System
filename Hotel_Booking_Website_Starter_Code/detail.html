@@ -8,17 +8,17 @@
 </head>
 <body>
     <div>
-        
         <header>
-            
             <div class="header">
-                <div>
-                   <a href="index.html"><img style="height: 60px ;width:60px; position: relative;top:9px; " src="assests/images/logo.png" alt="logo" ></a> 
+                <div style="margin-left:1%;">
+                    <a href="index.html"><img style="height: 60px ;width:60px;  " src="assests/images/logo.png" alt="logo" ></a>
+                    
 
                 </div>
 
-                <div>
-                    <a href="login.html" style="text-decoration: none; color:black;float: right; position: relative; top:-34px;right:10px">Login</a>
+                <div style="margin-right:2%; align-self:center;">
+                    <a href="login.html" style="text-decoration: none; color:black; ; ">
+                        Login</a>
 
                 </div>
                  
@@ -29,31 +29,84 @@
         <section>
             <br><br><br><br><br>
             <div class="content">
-                <img style="height: 500px; width:500px; margin-top: 2%; margin-left: 4%; margin-right: 4%;"
-                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                <div style="  margin-left: 4%; margin-right: 4%; margin-bottom: 1%;">
+                <div style="display: flex; justify-content: center; align-items: center;width:75%">
                     
-                <form method="GET" action="payment.html">
-                    Adults:<input type="number" min="1" value="1" name="noOfAdults" required>
-                    <br>
-                    Name:<input type="text" name="name" required>
-                    <br>
-                    From Date:<input type="date" value="dd-mm-yyyy" name="date" required>
-                    <br>
-                    To Date:<input type="date" name="date" required>
-                    <br>
-                    Total:<input type="number" name="total" readonly>
-                    <br>
-                    <input type="submit" value="Book Now" >
+                <img style="height: 350px; width:500px; margin-top: 2%; margin-left: 4%; margin-right: 4%;"
+                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+
+                </div>
+                <div style="border-left: 1px solid black; height: 400px;">
+
+                </div>
+                
+                <div style= "height: 400px; width:25%; margin-left: 1%;">
+                    
+                <form method="GET" action="payment.html" >
+                    
+                    <div style="display: flex; flex-direction: column; padding:5%;">
+                        <div  >
+                            <label style="display: inline-block;" for="adult">Adults:</label>
+                            <input id="adult" type="number" min="1" value="1" name="noOfAdults"  required>
+                            
+    
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" name="name" required>
+    
+                        </div>
+                        <br>
+                        
+                        <br>
+                        <br>
+                        <div >
+                            <label for="date">From Date:</label>
+                            <input id="date" type="date" value="dd-mm-yyyy" name="date" required>
+    
+                        </div>
+                        <br>
+                        
+                        <br>
+                        <br>
+                        <div>
+                            <label for="todate">To Date:</label>
+                            <input id="todate" type="date" name="date" required>
+                        </div>
+                        <br>
+                        
+                        <br>
+                        <br>
+                        <div >
+                            <label for="total">Total:</label>
+                            <input id="total" type="number" name="total" readonly>
+                        </div>
+                        <br>
+                        
+                        <div style="align-self:center;">
+                            
+                        <input  type="submit" value="Book Now" >
+                        
+                        </div>
+                        
+
+                    </div>
+                    
                 </form>
                 </div>
 
-                <div style="  margin-left: 4%; margin-right: 4%; margin-top: 1%; margin-bottom: 2%;">
+                <br><br><br><br><br>
+                
+            </div>
+            
+            <div style="  margin-left: 4%; margin-right: 4%; margin-top: 1%; margin-bottom: 2%;">
                     
                 <h2>Radisson Blu Hotel</h2>
-                <p>RATING</p>
+                <p style="font-family: cursive;  font-weight: bold;">RATING</p>
                 <p>5 Star</p>
-                <p>AMENITIES</p>
+                <p style="font-family: cursive;  font-weight: bold;">AMENITIES</p>
                 <ul>
                     <li>Room Service</li>
                     <li>Restaurant</li>
@@ -61,23 +114,29 @@
                     <li>Fitness Center</li>
                     <li>Pool</li>
                 </ul>
-                <h5>DESCRIPTION</h5>
+                <h5 style="font-family: cursive; font-weight: bold;">DESCRIPTION</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores omnis adipisci earum ab id possimus impedit, quam placeat enim minima, laboriosam beatae soluta reiciendis, exercitationem ipsa. Impedit, dicta nobis vero totam vitae nostrum in!</p>
                 
 
                 </div>
-                <br><br><br><br><br>
-                
-            </div>
+                <br>
+                <br>
+                <br>
         </section>
 
-        
         <footer>
             <div class="footer">
-                <div style="position: relative; top:19px;left:10px">
+                <div style="margin-left: 2%;">
                     <a style="text-decoration: none; color: black;" href="contact.html">Contact Us</a>
                 </div>
-                <div style="position: relative; float:right; right:15px;top:3px">
+
+                <div style="font-size:small;">
+                    <p>&copy; 2020 ROOM SEARCH PVT. LTD></p>
+                </div>
+                
+
+
+                <div style="margin-right: 2%;">
                     
                 
                     <a href="https://www.facebook.com/" target="_blank"><img class="logo" src="assests/images/facebook.png" ></a>
@@ -94,9 +153,6 @@
                 </div>
 
 
-                <div style="text-align: center; position: relative; top:10px;font-size:small">
-                    <p>&copy; 2020 ROOM SEARCH PVT. LTD></p>
-                </div>
                 
                              
             </div>            

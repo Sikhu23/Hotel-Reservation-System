@@ -8,15 +8,21 @@ body{
     background-color: #e0e0e0;
 }
 .header{
+    display: flex;
     background-color: rosybrown;
     position:fixed;
     width: 100%;
+    justify-content:space-between;
+    
 }
 .footer{
+    display: flex;
     background-color: rosybrown;
     bottom: 0%;
     width: 100%;
     position:fixed;
+    justify-content:space-between;
+    align-items: center;
 }
 .logo{
     height: 20px ;
@@ -24,6 +30,59 @@ body{
 }
 .space{
     height: 150px;
+    
+}
+#section_box{
+    height: 150px ;
+    width:150px;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px gray; 
+}
+#hide{
+    height: 150px ;
+    width:150px;
+    z-index:-1;
+    position: relative;
+    left: 0%;
+    top:-102%;
+    border-radius: 25%;
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+
+#section_box:hover img{
+    opacity: 0.3;
+    
+}
+
+
+
+
+
+img{
+    height: 150px ;
+    width:150px;
+    border-radius: 25%;
+    
+}
+.section{
+    display: flex;
+   margin-top: 5%;
+    margin-left: 10%; 
+    margin-right: 10%;
+    border-radius: 25px;
+    justify-content: space-between ;
+    align-items: center;
+    
 }
 #search{
     border: 1px solid transparent;
@@ -32,5 +91,8 @@ body{
     background-color: #f1f1f1;
     padding: 10px;
     width: 100%;
+    /* resize: none; */
+    outline: none;
+
 
 }

@@ -8,16 +8,21 @@ body{
     background-color: #e0e0e0;
 }
 .header{
-    top:0%;
+    display: flex;
     background-color: rosybrown;
     position:fixed;
     width: 100%;
+    justify-content:space-between;
+    
 }
 .footer{
+    display: flex;
     background-color: rosybrown;
     bottom: 0%;
     width: 100%;
     position:fixed;
+    justify-content:space-between;
+    align-items: center;
 }
 .logo{
     height: 20px ;
@@ -44,6 +49,7 @@ body{
 
 .item_grid{
     
+    
     grid-column-start: 1;
     grid-column-end: 2;
 
@@ -58,10 +64,11 @@ body{
 
 }
 .item_grid3{
+    display: flex;
     
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
      margin: 2%;
      width: 86%;
      text-decoration: none;
@@ -70,12 +77,13 @@ body{
 
 }
 .item_grid4{
+    display: flex;
 
     
     grid-column-start: 2;
     grid-column-end: 3;
     margin-left: -3%;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
      margin: 2%; 
      width: 83%;
     }

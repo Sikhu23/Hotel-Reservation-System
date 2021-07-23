@@ -1,6 +1,10 @@
 *{
     font-family: 'Ubuntu',sans-serif;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+}
 body{
     height:100%;
     width: 100%;
@@ -8,17 +12,23 @@ body{
     background-color: #e0e0e0;
 }
 .header{
-    top:0%;
+    display: flex;
     background-color: rosybrown;
     position:fixed;
     width: 100%;
+    justify-content:space-between;
+    
 }
 .footer{
+    display: flex;
     background-color: rosybrown;
     bottom: 0%;
     width: 100%;
     position:fixed;
+    justify-content:space-between;
+    align-items: center;
 }
+
 .logo{
     height: 20px ;
     width:22px;
