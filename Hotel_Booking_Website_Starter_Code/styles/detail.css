@@ -1,6 +1,11 @@
 *{
     font-family: 'Ubuntu',sans-serif;
 }
+
+
+.checked{
+    color:orange;
+}
 body{
     height:100%;
     width: 100%;

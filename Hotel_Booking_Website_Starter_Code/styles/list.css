@@ -94,3 +94,6 @@ body{
 .item_grid4:hover{
     background-color: rosybrown;
 }
+.checked{
+    color:orange;
+}
